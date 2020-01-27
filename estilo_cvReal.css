@@ -1,0 +1,233 @@
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/*       Diagramación 3 columnas                                                -------------------- */ 
+/*       PRIMER COLUMNA                                                         -------------------- */
+
+.foto {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-position: center;
+    border: 2px solid #ffffff;
+    margin: 60px 60px 20px 60px ;
+}
+
+
+#ColumnaUno{
+    float: left;
+    width: 30%;
+    height:100%;
+    background-color: bisque;
+
+
+}
+
+
+        /* Estilo Contenido 1er Columna  --------------------- */
+
+ #Nombre_y_Titulo {
+    background-color: grey;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+h1#nombre_ppal {
+    color:white;
+    font-size: 23px;
+    margin-bottom: 10px;  
+}
+
+h1#titulo_profesional {
+    color:orange;
+    font-size: 23px;
+    margin-top: 10px;  
+}
+
+ol li{
+    list-style-type: none;
+    padding: 4px;
+    margin-bottom: 6px;
+    margin-left: 55px;
+    text-align: left;
+    }
+
+
+h1#FondoGris{
+    color: orange;
+    background-color: gray;
+    margin: 40px 55px;
+    padding: 5px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h4.estudios{
+    margin: 10px 55px;
+    font-size: 20px;
+}
+
+p {
+    margin: 10px 55px 30px 55px;
+}
+
+ul {
+    margin-left: 55px;
+    padding: 0px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px 0px 10px 0px;
+    border-bottom: solid 1px;
+}
+
+.punto {
+    height: 10px;
+    width: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: right;
+  }
+
+
+
+
+/*       SEGUNDA  COLUMNA                                                         --------------------*/
+
+
+#ColumnaDos{
+    float: left;
+    width: 30%;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+
+        
+
+
+        /* Estilo Contenido 2da Columna  --------------------- */
+
+h1.experiencia{
+    color: orange;
+    padding: 5px;
+    margin: 40px 300px 40px 600px;
+    text-align: center;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    letter-spacing: 2px;
+
+}
+
+h4#Puesto_Periodo {
+    color: gray;
+    font-size: 17px;
+    margin-top: 5px;
+}
+h4.maipu{
+    padding-top: 0px;
+    font-size: 22px;
+    margin-bottom: 17px;
+}
+h4.Proyecto_Ejecutivo{
+    padding-top: 70px;
+    font-size: 22px;
+    margin-top: 74px;
+    margin-bottom: 17px;
+}
+
+h4.Diseño_Interiores{
+    padding-top: 30px;
+    font-size: 22px;
+}
+
+h4.dibujante{
+    padding-top: 30px;
+    font-size: 22px;
+}
+h4.asistente{
+    padding-top: 30px;
+    font-size: 22px;
+}
+h4.administracion_edificios{
+    padding-top: 50px;
+    font-size: 22px;
+}
+h4.asistente_Ing{
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+        /* boxes grises fondo 2da Columna */
+        
+        #sobre_mi{
+            background-color: lightgrey; 
+            text-align: center;
+            font-weight: 300;
+        }
+
+
+
+/*       TERCER  COLUMNA                                                         --------------------*/
+
+#ColumnaTres{
+    float: left;
+    width: 30%;
+    background-color: #ffffff;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+/* Estilo Contenido 3er Columna  --------------------- */
+
+p.p_maipu {
+    margin-top: 23px;
+}
+
+p.p_Proyecto_Ejecutivo {
+    margin-top: 55px;
+}
+
+p.p_Diseño_Interiores {
+    margin-top: 106px;
+}
+
+p.p_dibujante {
+    margin-top: 88px;
+}
+
+p.p_asistente {
+    margin-top: 88px;
+}
+
+p.p_administracion_edificios {
+    margin-top: 68px;
+}
+
+p.p_asistente_Ing {
+    margin-top: 117px;
+}
+
+         /* boxes grises fondo 3er Columna */ 
+
+#cursos{
+    background-color: lightgrey; 
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
