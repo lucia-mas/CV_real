@@ -1,12 +1,14 @@
 
-body {
+html, body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    height: 100%;
     
 }
 
-/*       Diagramación 3 columnas                                                -------------------- */ 
-/*       PRIMER COLUMNA                                                         -------------------- */
+/*       Diagramación 2 columnas                                               -------------------- */ 
+/*       PRIMER COLUMNA LATERAL IZQ                                                      -------------------- */
 
 .foto {
     width: 300px;
@@ -19,17 +21,15 @@ body {
 }
 
 
-#ColumnaUno{
+#ColumnaIzq{
     float: left;
     width: 30%;
     height:100%;
     background-color: bisque;
-
-
 }
 
 
-        /* Estilo Contenido 1er Columna  --------------------- */
+        /* Estilo Contenido 1er Columna Lateral izq --------------------- */
 
  #Nombre_y_Titulo {
     background-color: grey;
@@ -85,6 +85,7 @@ ul li {
     list-style-type: none;
     padding: 10px 0px 10px 0px;
     border-bottom: solid 1px;
+    width: 90%;
 }
 
 .punto {
@@ -99,129 +100,93 @@ ul li {
 
 
 
-/*       SEGUNDA  COLUMNA                                                         --------------------*/
+/*       SEGUNDA  COLUMNA DERECHA                                                        --------------------*/
 
 
-#ColumnaDos{
+#ColumnaDerecha{
     float: left;
-    width: 30%;
+    width: 65%;
     background-color: #ffffff;
     padding-left: 10px;
+    margin: 5px;
+    height: 1518px;
 }
 
         
-
 
         /* Estilo Contenido 2da Columna  --------------------- */
 
 h1.experiencia{
     color: orange;
     padding: 5px;
-    margin: 40px 300px 40px 600px;
+    margin: 0px 50px 50px 50px;
     text-align: center;
     border-top: solid 1px gray;
     border-bottom: solid 1px gray;
     letter-spacing: 2px;
-
 }
 
-h4#Puesto_Periodo {
+#Puesto{
+    height: 130px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#PuestoyPeriodo{
+    width: 40%;
+    margin: 5px;
+    float: left;
+}
+
+p.descripcion{
+    width: 50%; 
+    margin: 5px;
+    float: right;
+}
+
+h4#Empresa_Periodo {
     color: gray;
     font-size: 17px;
-    margin-top: 5px;
-}
-h4.maipu{
-    padding-top: 0px;
-    font-size: 22px;
-    margin-bottom: 17px;
-}
-h4.Proyecto_Ejecutivo{
-    padding-top: 70px;
-    font-size: 22px;
-    margin-top: 74px;
-    margin-bottom: 17px;
+    margin: 10px 10px 10px 15px;
 }
 
-h4.Diseño_Interiores{
-    padding-top: 30px;
-    font-size: 22px;
+.Nombre_Puesto{
+    font-size: 20px;
+    margin: 15px;
 }
 
-h4.dibujante{
-    padding-top: 30px;
-    font-size: 22px;
-}
-h4.asistente{
-    padding-top: 30px;
-    font-size: 22px;
-}
-h4.administracion_edificios{
-    padding-top: 50px;
-    font-size: 22px;
-}
-h4.asistente_Ing{
-    padding-top: 50px;
-    font-size: 22px;
-}
 
         /* boxes grises fondo 2da Columna */
-        
-        #sobre_mi{
-            background-color: lightgrey; 
+
+        #Base_gris{
+            margin-left: 15px;
+            background-color: lightgray;
+            height: 320px;
             text-align: center;
             font-weight: 300;
+            padding: 40px 10px;
+
+        }
+         
+
+        
+        #sobre_mi{
+            width: 38%;
+            float: left;
+            margin-right: 5px;
+            line-height: 1.5em;
+        }
+
+        #cursos{
+            width: 60%;
+            float: left;
+            margin-left: 5px;
         }
 
 
 
-/*       TERCER  COLUMNA                                                         --------------------*/
-
-#ColumnaTres{
-    float: left;
-    width: 30%;
-    background-color: #ffffff;
-    margin-top: 10px;
-    font-weight: 300;
-    font-size: 18px;
-}
 
 
-/* Estilo Contenido 3er Columna  --------------------- */
-
-p.p_maipu {
-    margin-top: 23px;
-}
-
-p.p_Proyecto_Ejecutivo {
-    margin-top: 55px;
-}
-
-p.p_Diseño_Interiores {
-    margin-top: 106px;
-}
-
-p.p_dibujante {
-    margin-top: 88px;
-}
-
-p.p_asistente {
-    margin-top: 88px;
-}
-
-p.p_administracion_edificios {
-    margin-top: 68px;
-}
-
-p.p_asistente_Ing {
-    margin-top: 117px;
-}
-
-         /* boxes grises fondo 3er Columna */ 
-
-#cursos{
-    background-color: lightgrey; 
-    text-align: center;
-}
 
 
 
